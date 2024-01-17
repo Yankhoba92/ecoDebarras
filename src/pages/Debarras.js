@@ -6,14 +6,14 @@ import Error from '../components/Errors';
 import Footer from '../components/Footer';
 
 const meta = {
-  title: 'Nettoyage',
+  title: 'Debarras',
   meta: [],
   link: [],
   style: [],
   script: [],
 };
 
-export default function Nettoyage() {
+export default function Debarras() {
   return (
     <React.Fragment>
       <HelmetProvider>
@@ -25,7 +25,7 @@ export default function Nettoyage() {
         <NavbarBurger/>
         </section>
         <Error/>
-      <Footer/> 
+        <Footer/>
       </>
     </React.Fragment>
   );
